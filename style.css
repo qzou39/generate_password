@@ -22,8 +22,25 @@ label {
   flex-direction: column;
 }
 
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#char-select {
+  display: flex;
+  flex-direction: column;
+}
+#char-select > label {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .wrapper {
