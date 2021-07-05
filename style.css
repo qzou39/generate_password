@@ -17,6 +17,15 @@ body {
   background-color: #f9fbfd;
 }
 
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
